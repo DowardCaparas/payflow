@@ -14,8 +14,12 @@ const Search = ({ placeholder }: { placeholder: string }) => {
     params.set('page', '1');
     // set the params string based on the user’s input. 
     // If the input is empty, you want to delete it:
-    term ? params.set('query', term) : params.delete('query');
-
+    if(term) {
+      params.set('query', term);
+    }else {
+      params.delete('query');
+    }
+    
     replace(`${pathname}?${params.toString()}`);
   }, 300)
 
