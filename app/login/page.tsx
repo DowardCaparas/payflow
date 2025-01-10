@@ -16,6 +16,13 @@ export default function LoginPage() {
           </div>
         </div>
         <LoginForm />
+       <div>
+       Login this account to test the application:
+        <p className='text-sm font-semibold'>
+          Email: user@nextmail.com <br />
+          Password: 123456
+        </p>
+       </div>
       </div>
     </main>
   );
