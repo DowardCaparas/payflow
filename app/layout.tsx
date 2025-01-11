@@ -4,8 +4,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Acme Dashboard',
-    default: 'Acme Dashboard',
+    template: '%s | Payflow',
+    default: 'Payflow',
   } ,
   description: 'You can create, edit, and delete invioce for customers',
 }
