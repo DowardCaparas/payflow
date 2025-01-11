@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import NavLinks from '@/app/ui/dashboard/nav-links';
-
-import { PowerIcon } from '@heroicons/react/24/outline';
-import PayflowLogo from '../payflow-logo';
+// import { PowerIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '../fonts';
 // import { signOut } from '@/auth';
 
